@@ -20,7 +20,7 @@ const data={
 function Categories() {
   return (
     <div className='product'>
-      <p>hello world</p>
+      
       <div>
       <Doughnut className='doughnut' data={data} />
       </div>
