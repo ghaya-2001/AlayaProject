@@ -21,7 +21,7 @@ const data={
 function Product() {
   return (
     <div className='product'>
-      <p>hello world</p>
+     
       <div>
       <Doughnut className='doughnut' data={data} />
       </div>
