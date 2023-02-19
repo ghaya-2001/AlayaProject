@@ -5,10 +5,83 @@
     margin-top: 2.8%;
    margin-left: 20%;
    border-radius: 8px;
+   padding-top: 3%;
+ 
 }
+.title{
+    color:#141522 ;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    padding-left:6%;
+
+}
+
 .box{
-    color: #EAEBEE;
-    width: 400px;
-    height: 237px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-top: 7%;
+}
+.user{
+    background-color: #EAEBEE;
+    border-radius: 8PX;
+    width: 123px;
+    height: 52px;
     display: inline-block;
+    margin-right: 5%;
+}
+.BsP{
+    padding-left: 10%;
+    padding-top: 5%;
+    transform: scale(3);
+  
+  }
+.vendors{
+    background-color: #EAEBEE;
+    border-radius: 8PX;
+    width: 123px;
+    height: 52px;
+    display: inline-block;
+
+}
+.AiO{
+    padding-left: 10%;
+    padding-top: 5%;
+    transform: scale(4);
+}
+
+.vendprod{
+    margin-top: 5%;
+ 
+ 
+}
+
+.cat{
+    background-color: #EAEBEE;
+    border-radius: 8PX;
+    width: 123px;
+    height: 52px;
+    display: inline-block;
+    margin-right: 5%;
+    
+    
+}
+.BsU{
+    padding-left: 10%;
+    padding-top: 5%;
+    transform: scale(3);
+    
+}
+.prod{
+    background-color: #EAEBEE;
+    border-radius: 8PX;
+    width: 123px;
+    height: 52px;
+    display: inline-block;
+   
+}
+.BsF{
+    padding-left: 10%;
+    padding-top: 5%;
+    transform: scale(3.5);
+
 }

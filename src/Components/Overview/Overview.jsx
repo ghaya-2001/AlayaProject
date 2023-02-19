@@ -1,14 +1,33 @@
-import React from 'react'
+import React from 'react';
+import { BsPeopleFill } from "react-icons/bs";
+import { BsUnion } from "react-icons/bs";
+import { BsFileTextFill } from "react-icons/bs";
+import { AiOutlineInbox  } from "react-icons/ai";
+
 
 function Overview() {
   return (
+
     <div className='overview'>
-        <div>Overview</div>
+        <div className='title'>Overview</div>
         <div className='box'>
-        <div className='user' >USERS</div>
-        <div>Categories</div>
-        <div>vendors</div>
-        <div>product</div>
+        <div className='usercat'>
+        <div className='user'>
+            <BsPeopleFill className='BsP'>users</BsPeopleFill>
+        </div>
+        <div className='vendors'>
+            <AiOutlineInbox className='AiO' ></AiOutlineInbox>
+        </div>
+        </div>
+
+        <div className='vendprod'>
+        <div className='cat'>
+             <BsUnion className='BsU' ></BsUnion>
+        
+        </div>
+        <div className='prod'>
+        <BsFileTextFill className='BsF'></BsFileTextFill>        </div>
+        </div>
         </div>
     </div>
   )
