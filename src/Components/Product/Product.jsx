@@ -25,8 +25,7 @@ const options = {
     doughnutlabel: {
       labels: [
         {
-          text: 'Total',
-
+         
         },
        
 
@@ -73,8 +72,9 @@ const ChartDoughnutLabel = {
 function Product() {
   return (
     <div className='product'>
-      <div className='dougbox'>
       <div className='title'>Product status</div>
+      <div className='dougbox'>
+      
         <Doughnut className='doughnut' data={data}
           options={options}
           plugins={[ChartDoughnutLabel]}
