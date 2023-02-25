@@ -1,6 +1,25 @@
-.doughnut{
-    transform: scale(0.8);
-    background-color: #ffff;
+.categories {
+    background-color: white;
+    width: 3260px;
+    height: 280px;
+    margin-top: 2%;
     border-radius: 8px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+
+    .doughnutbox {
     
+        width: 40vh;
+        transform: scale(0.8);
+   
+
+
+
+
+    }
+
+
+
+
 }

@@ -1,55 +1,81 @@
 import React from 'react';
-import { BsPeopleFill } from "react-icons/bs";
-import { BsUnion } from "react-icons/bs";
-import { BsFileTextFill } from "react-icons/bs";
-import { AiOutlineInbox  } from "react-icons/ai";
+import { Profile2User } from 'iconsax-react';
+import { DocumentCopy } from 'iconsax-react';
+import { Note } from 'iconsax-react';
+import { Shop } from 'iconsax-react';
 
 
 function Overview() {
   return (
 
     <div className='overview'>
-        <div className='title'>Overview</div>
-        <div className='box'>
-        <div className='usercat'>
-        <div className='user'>
-            <BsPeopleFill className='BsP'></BsPeopleFill>
-            <div className='num7'>
-            <div className='edit'>users</div>
-           
+      <div className='title'>Overview</div>
+      <div className='box'>
+
+        <div className='uservend'>
+          {/**users */}
+          <div className='user'>
+            <div className="left_block">
+              <div className="icon_overview">
+                <Profile2User size="18" color="white"/>
+              </div>
+              <span>Users</span>
             </div>
-            
-        </div>
-        <div className='vendors'>
-            <AiOutlineInbox className='AiO' ></AiOutlineInbox>
-            <div className='num7'>
-            <div className='edit'>vendors</div>
-          
+            <div className="right_block">
+              <span>9</span>
             </div>
-        </div>
+          </div>
+        {/**vendors */}
+          <div className='user'>
+            <div className="left_block">
+              <div className="icon_overview">
+              <Shop size="18" color='white' />
+              </div>
+              <span>Vendors</span>
+            </div>
+            <div className="right_block">
+              <span>15</span>
+            </div>
+          </div>
+
         </div>
 
-        <div className='catprod'>
-        <div className='cat'>
 
-             <BsUnion className='BsU' ></BsUnion>
-             <div className='num7'>
-             <div className='edit'>categories</div>
-          
-             </div>
-            
         
-        </div>
-        <div className='prod'>
-            <BsFileTextFill className='BsF'></BsFileTextFill> 
-            <div className='num7'>
-           <div className='edit'>product</div>
       
-           </div>
-        </div>
-        </div>
-        </div>
+
+      <div className='catprod'>
+        {/**categories */}
+       
+        <div className='user'>
+            <div className="left_block">
+              <div className="icon_overview">
+                <DocumentCopy size="18" color="white"/>
+              </div>
+              <span>Categories</span>
+            </div>
+            <div className="right_block">
+              <span>7</span>
+            </div>
+          </div>
+          <div className='user'>
+            <div className="left_block">
+              <div className="icon_overview">
+                <Note size="18" color="white"/>
+              </div>
+              <span>Prodcus</span>
+            </div>
+            <div className="right_block">
+              <span>187</span>
+            </div>
+          </div>
+
+       
+      
+      </div>
+      </div>
     </div>
+
   )
 }
 

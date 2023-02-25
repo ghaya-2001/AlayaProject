@@ -1,31 +1,64 @@
 import React from 'react'
-import {Doughnut} from 'react-chartjs-2'
+import { Doughnut } from 'react-chartjs-2'
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 
+const data = {
+  labels: [
+   
 
-const data={
- 
-    datasets:[
-        {
-        label:"first data",
-        data:[22,18,11,29,11],
-        backgroundColor:
-         ["#222B41", "#555E74","#808697","#AAAFB9","#D5D7DC"]
-        }
-    ]
+  ],
+
+  datasets: [
+    {
+      label: "",
+      data: [22, 18, 11, 29, 11,],
+      backgroundColor:
+        ["#222B41", "#555E74", "#808697", "#AAAFB9", "#D5D7DC", "#F5F5F7"]
+    }
+  ]
+};
+const options = {
+  plugins: {
+    datalabels: {
+      formatter: (value="22,18,11,29,11,", ctx) => {
+        let sum = 0;
+        let dataArr = ctx.chart.data.datasets[0].data;
+        dataArr.map((data) => {
+          sum += data;
+        });
+        
+        let percentage = (value) + '%';
+        return percentage;
+      },
+      color: 'white',
+     
+      labels: {
+        title: {
+          font: {
+            size: '16',
+           
+          },
+        },
+      },
+    },
+  },
 };
 
 
 
 function Categories() {
   return (
-    <div className='product'>
-      
-      <div>
-      <Doughnut className='doughnut' data={data} />
-      </div>
-     
-    
+    <div className='categories'>
+       <span className='title'>Product categories</span>
+       <div className='doughnutbox' >
+        <Doughnut className='doughnut1' data={data}
+          plugins={[ChartDataLabels]}
+          options={options}
+         
+       
+        />
+      </div> 
     </div>
   )
 }

@@ -1,96 +1,111 @@
-.overview{
-    background-color: white;
+.overview {
+    background-color: #ffff;
     width: 400px;
-    height: 237px;
-    margin-top: 2.8%;
-   margin-left: 20%;
-   border-radius: 8px;
-   padding-top: 3%;
- 
-}
-.title{
-    color:#141522 ;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 18px;
-    padding-left:6%;
+    height: 280px;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-left: 10%;
 
 }
 
-.box{
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-top: 7%;
-}
-.user{
-    background-color: #EAEBEE;
-    border-radius: 8PX;
-    width: 123px;
-    height: 52px;
-    display: inline-block;
-    margin-right: 5%;
-}
-.BsP{
-    padding-left: 10%;
-    padding-top: 5%;
-    transform: scale(3);
-  
-  }
-.vendors{
-    background-color: #EAEBEE;
-    border-radius: 8PX;
-    width: 123px;
-    height: 52px;
-    display: inline-block;
-
-}
-.AiO{
-    padding-left: 10%;
-    padding-top: 5%;
-    transform: scale(4);
-}
-
-.catprod{
-    margin-top: 5%;
- 
- 
-}
-
-.cat{
-    background-color: #EAEBEE;
-    border-radius: 8PX;
-    width: 123px;
-    height: 52px;
-    display: inline-block;
-    margin-right: 5%;
-    
-    
-}
-.BsU{
-    padding-left: 10%;
-    padding-top: 5%;
-    transform: scale(3);
-    
-}
-.prod{
-    background-color: #EAEBEE;
-    border-radius: 8PX;
-    width: 123px;
-    height: 52px;
-    display: inline-block;
-   
-}
-.BsF{
-    padding-left: 10%;
-    padding-top: 5%;
-    transform: scale(3.5);
-
-}
-.edit{
-  
-    padding-left: 16%;
-    font-size: 15px;
-    font-family: 'Plus Jakarta Sans';
+.title {
     color: #141522;
-    padding-right: 10%;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-size: 18px;
+    padding-left: 9%;
+    padding-top: 6%;
+    font-size: 1.5rem;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+
 }
+
+.box {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+
+}
+
+.uservend {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    .user {
+        background-color: #EAEBEE;
+        border-radius: 8px;
+        width: 150px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        align-items: flex-end;
+        justify-content: space-between;
+        .left_block{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .icon_overview {
+                background-color: #2B3651;
+                border-radius: 2px;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .right_block{
+            transform: translateY(5px);
+            span{
+                color: #2b3651;
+                font-weight: bold;
+                font-size: 40px;
+                font-family: 'Plus Jakarta Sans',sans-serif;
+            }
+        }
+    }
+}
+.catprod{
+    display: flex;
+    gap: 20px;
+  
+    width: 100%;
+    padding-top: 20px;
+    .user {
+        background-color: #EAEBEE;
+        border-radius: 8px;
+        width: 150px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        align-items: flex-end;
+        justify-content: space-between;
+        .left_block{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .icon_overview {
+                background-color: #2B3651;
+                border-radius: 3px;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .right_block{
+            transform: translateY(5px);
+            span{
+                color: #2b3651;
+                font-weight: bold;
+                font-size: 40px;
+                font-family: 'Plus Jakarta Sans',sans-serif;
+            }
+        }
+    }
+
+}
+
 
