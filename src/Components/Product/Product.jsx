@@ -14,7 +14,9 @@ const data = {
       label: "",
       data: [71, 29],
       backgroundColor:
-        [" #2B3651", "#D5D7DC"]
+        [" #2B3651", "#D5D7DC"],
+        borderWidth:0,
+        cutout:'80%'
     }
   ],
 
@@ -30,7 +32,8 @@ const options = {
        
 
         {
-          text: '180',
+          text: '180 Total',
+          
           font: {
             size: '36',
             weight: 'bold'
@@ -38,6 +41,7 @@ const options = {
           color: '#333'
         }
       ]
+      
     }
   }
 };
@@ -57,7 +61,7 @@ const ChartDoughnutLabel = {
     ctx.restore();
     const centerX = width / 2;
     const centerY = height / 2;
-    ctx.font = `${font.weight} ${font.size}px sans-serif`;
+    ctx.font = 'Plus Jakarta Sans,sans-serif;';
     ctx.fillStyle = color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';

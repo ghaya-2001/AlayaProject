@@ -9,7 +9,7 @@ function Activity() {
     <div className='activity'>
       <p>hello world</p>
       <div>
-      <Chart className='doughnut' />
+     {/** */} 
       </div>
      
     

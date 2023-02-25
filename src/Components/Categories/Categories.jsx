@@ -14,7 +14,9 @@ const data = {
       label: "",
       data: [22, 18, 11, 29, 11,],
       backgroundColor:
-        ["#222B41", "#555E74", "#808697", "#AAAFB9", "#D5D7DC", "#F5F5F7"]
+        ["#222B41", "#555E74", "#808697", "#AAAFB9", "#D5D7DC", "#F5F5F7"],
+        borderWidth:0,
+       
     }
   ]
 };

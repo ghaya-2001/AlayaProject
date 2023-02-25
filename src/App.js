@@ -4,6 +4,7 @@ import Product from './Components/Product/Product';
 import Categories from './Components/Categories/Categories';
 import Price from './Components/Price/Price';
 import Overview from './Components/Overview/Overview';
+import  Activity from './Components/Activity/Activity'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
 
       <div className='second'>
+      <Activity/>
       <Price/>
 
       </div>
