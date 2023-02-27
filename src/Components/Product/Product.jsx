@@ -76,7 +76,7 @@ const ChartDoughnutLabel = {
 function Product() {
   return (
     <div className='product'>
-      <div className='title'>Product status</div>
+      <div className='title'>Products Status</div>
       <div className='dougbox'>
       
         <Doughnut className='doughnut' data={data}

@@ -1,7 +1,10 @@
-.first{
-    display: flex;
-    background-color: #D7D7D7;
-}
 .App{
     background-color: #D7D7D7;
+    .first{
+        display: flex;
+        background-color: #D7D7D7;
+    }
+    .second{
+        display: flex;
+    }
 }

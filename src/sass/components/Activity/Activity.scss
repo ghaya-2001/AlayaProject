@@ -1,3 +1,26 @@
 .activity{
     background-color: #ffff;
+    width: 782px;
+    height: 360px;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 8px;
+    .titre{
+        color: #141522;
+        font-family: 'Plus Jakarta Sans',sans-serif;
+        font-size: 18px;
+        padding-left: 5%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+     
+    }
+    .line{
+      //  background-color:#F5F5F7 ;
+        border-radius: 8px;
+        padding-left:5% ;
+        width: 600px;
+        padding-top: 10%;
+    }
 }

@@ -52,7 +52,7 @@ const options = {
 function Categories() {
   return (
     <div className='categories'>
-       <span className='title'>Product categories</span>
+       <span className='title'>Product Categories</span>
        <div className='doughnutbox' >
         <Doughnut className='doughnut1' data={data}
           plugins={[ChartDataLabels]}
