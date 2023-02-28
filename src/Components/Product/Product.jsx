@@ -78,12 +78,24 @@ function Product() {
     <div className='product'>
       <div className='title'>Products Status</div>
       <div className='dougbox'>
-      
+       
         <Doughnut className='doughnut' data={data}
           options={options}
           plugins={[ChartDoughnutLabel]}
 
         />
+         <div className='Colors'>
+          <div className='prt1'>
+          <div className='Blue'>.</div>
+          <div className='sold'>  Sold-71%</div>
+          </div>
+         <div className='prt2'>
+          <div className='Greey'>.</div>
+          <div className='stand'>Stand By-29%</div>
+
+         </div>
+         
+        </div>
       </div>
 
 

@@ -1,6 +1,6 @@
 .product {
     background-color: white;
-    width: 326px;
+    width: 380px;
     height: 280px;
     margin-top: 2%;
     border-radius: 8px;
@@ -9,12 +9,68 @@
     flex-direction: column;
 
     .dougbox {
-    
+        display: flex;
         width: 40vh;
         transform: scale(0.8);
         margin-left: 2%;
         margin-top: 2%;
-   
+        gap: 3rem;
+
+        .Colors {
+            border: 1px solid blue;
+            padding-top: 25%;
+
+            .prt1 {
+                display: flex;
+                gap: 1rem;
+
+            }
+
+            .Blue {
+                border-width: 3px;
+                border-radius: 50%;
+                background-color: #2B3651;
+                width: 20px;
+             
+
+            }
+
+            .sold {
+                color: #141522;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 10px;
+
+            }
+
+            .prt2 {
+
+                display: flex;
+                margin-top: 30%;
+                gap: 2rem;
+
+            }
+
+            .Greey {
+                background-color: #D4C9AE;
+                border-width: 3px;
+                border-radius: 50%;
+                width: 20px;
+                
+
+
+
+            }
+
+            .stand {
+                color: #141522;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 10px;
+
+
+            }
+
+        }
+
 
 
 
