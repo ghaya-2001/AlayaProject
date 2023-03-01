@@ -23,12 +23,9 @@ const data = {
 const options = {
   plugins: {
     datalabels: {
-      formatter: (value="22,18,11,29,11,", ctx) => {
+      formatter: (value="22,18,11,29,11,", ) => {
     
-        let dataArr = ctx.chart.data.datasets[0].data;
-        dataArr.map((data) => {
-          
-        });
+       
         
         let percentage = (value) + '%';
         return percentage;
