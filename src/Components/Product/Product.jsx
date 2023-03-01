@@ -1,7 +1,7 @@
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2'
 import Chart from "chart.js/auto";
-import { plugins } from 'chart.js';
+
 
 
 
@@ -55,7 +55,6 @@ const ChartDoughnutLabel = {
 
     // Display the number label
     const text = chart.config.options.plugins.doughnutlabel.labels[1].text;
-    const font = chart.config.options.plugins.doughnutlabel.labels[1].font;
     const color = chart.config.options.plugins.doughnutlabel.labels[1].color;
 
     ctx.restore();
@@ -86,12 +85,12 @@ function Product() {
         />
          <div className='Colors'>
           <div className='prt1'>
-          <div className='Blue'>.</div>
-          <div className='sold'>  Sold-71%</div>
+          <div className='Blue'></div>
+          <div className='sold'>  Sold - 71%</div>
           </div>
          <div className='prt2'>
-          <div className='Greey'>.</div>
-          <div className='stand'>Stand By-29%</div>
+          <div className='Greey'></div>
+          <div className='stand'>StandBy29%</div>
 
          </div>
          

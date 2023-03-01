@@ -1,1 +1,46 @@
+.logs{
+    background-color: white;
+    width: 1038px;
+    height: 362px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 8px;
+    .item1{
+        margin-top: 4%;
+        margin-left: 5%;
+        background-color:#EFF6E9;
+        color:  #25C78B;
+        height: 30px;
+        width: 70px;
+        border-radius: 4px;
+        padding-top :0.5%;
+        padding-left: 0.5%;
+       
+    }
+    .item2{
+        margin-top: 4%;
+        margin-left: 5%;
+        background-color: #FFF4F3;
+        color:  #DB5962;
+        height: 30px;
+        width: 70px;
+        border-radius: 4px;
+        padding-top :0.5%;
+        padding-left: 0.5%;
+        
+
+    }
+    .hr{
+        border-bottom: 3px solid  #2f2f83;
+        height: 400px;
+        width: 970px;
+        margin-left: 3%;
+        margin-top: 5%;
+       
+        padding-top: 2%;
   
+       
+      
+    }
+
+}
