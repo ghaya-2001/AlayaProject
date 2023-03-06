@@ -58,14 +58,17 @@ function Activity() {
             <ArrowDown2 className='icon' />
           </div>
         </div>
-        <Line data={data} options={options}
-          className='line'></Line>
-        <div className='colors'>
-          <div className='blue' ></div>
-          <div className='revenu'>Revenu</div>
-          <div className='greey'></div>
-          <div className='manu'>Manufacturing costs</div>
+        <div className='graph'>
+          <Line data={data} options={options}
+            className='line'></Line>
+          <div className='colors'>
+            <div className='blue' ></div>
+            <div className='revenu'>Revenu</div>
+            <div className='greey'></div>
+            <div className='manu'>Manufacturing costs</div>
+          </div>
         </div>
+
       </div>
     </div>
   )

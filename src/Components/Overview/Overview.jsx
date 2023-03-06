@@ -63,7 +63,7 @@ function Overview() {
               <div className="icon_overview">
                 <Note size="18" color="white"/>
               </div>
-              <span>Prodcus</span>
+              <span>Products</span>
             </div>
             <div className="right_block">
               <span>187</span>

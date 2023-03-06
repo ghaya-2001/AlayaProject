@@ -1,9 +1,9 @@
 .activity {
     background-color: #ffff;
-    width: 550px;
+    width: 770px;
     height: 365px;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 3%;
     border-radius: 8px;
 
     .act {
@@ -11,14 +11,15 @@
         border-radius: 8px;
         padding-top: 1%;
         padding-left:2% ;
+   
        
 
         .firstpart {
             display: flex;
-            gap: 13rem;
+            gap: 19rem;
             height: 50px;
-            padding-top: 2%;
-
+            padding-top: 1%;
+           
             .list {
                 background-color: #F5F5F7;
                 width: 136px;
@@ -55,59 +56,69 @@
             font-weight: 700;
             padding-left: 10%;
         }
+        .graph{
 
-        .line {
-       
-            background: #F5F5F7;
-            border-radius: 8px;
-            height: 50px;
-            margin-top: 2%;
-            transform: scale(0.8);
+            width: 600px;
+            padding-left: 10%;
+            padding-top: 1%;
             
-      
-        
-
-
-
-        }
-        .colors{
-            display: flex;
-            gap: 1rem;
-            padding-left: 30%;
-            height: 20px;
-            
-            .revenu{
-                color: #2B3651;
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 12px;
-                
-
-            }
-            .manu{
-                font-family: 'Plus Jakarta Sans', sans-serif;
-                font-size: 12px;
-                color: #D4C9AE;
-                
-
-            }
           
-            .blue{
-                border-width: 3px;
-                border-radius: 50%;
-                background-color: #2B3651;
-                width: 20px;
-
+            .line {
+       
+                background: #F5F5F7;
+                border-radius: 8px;
+                height: 50px;
+           
+                
+          
+        
+    
             }
-            .greey{
-                background-color: #D4C9AE;
-                border-width: 3px;
-                border-radius: 50%;
-                width: 20px;
-
-
+            .colors{
+                display: flex;
+                gap: 1rem;
+                padding-left: 30%;
+                padding-top: 2%;
+                height: 20px;
+                
+                .revenu{
+                    color: #2B3651;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-size: 12px;
+             
+    
+                }
+                .manu{
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-size: 12px;
+                    color: #D4C9AE;
+                
+                    
+    
+                }
+              
+                .blue{
+                    border-width: 3px;
+                    border-radius: 50%;
+                    background-color: #2B3651;
+                    width: 20px;
+                    
+    
+                }
+                .greey{
+                    background-color: #D4C9AE;
+                    border-width: 3px;
+                    border-radius: 50%;
+                    width: 20px;
+    
+    
+                }
             }
+    
+    
         }
 
+        }
 
-    }
+        
 }

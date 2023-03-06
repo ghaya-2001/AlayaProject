@@ -1,6 +1,6 @@
 .product {
     background-color: white;
-    width: 380px;
+    width: 350px;
     height: 280px;
     margin-top: 2%;
     border-radius: 8px;
@@ -14,7 +14,7 @@
         transform: scale(0.8);
         margin-left: 1%;
         margin-top: 2%;
-        gap: 1rem;
+        
      
 
         
@@ -27,6 +27,7 @@
 
             .prt1 {
                 display: flex;
+                transform: scale(0.7);
                 
 
             }
@@ -54,6 +55,7 @@
 
                 display: flex;
                 margin-top: 20%;
+                transform: scale(0.7);
              
           
             

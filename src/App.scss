@@ -1,11 +1,25 @@
-.App{
+.App {
     background-color: #D7D7D7;
-    height: 200vh;
-    .first{
-        display: flex;
-        background-color: #D7D7D7;
+    height: 100vh ;
+    overflow-y: scroll;
+    display: flex;
+
+      
+
+        .first {
+            display: flex;
+            background-color: #D7D7D7;
+        }
+
+        .second {
+            display: flex;
+        }
+    
+
+    .rightside {
+
     }
-    .second{
-        display: flex;
-    }
+
+
+
 }

@@ -6,10 +6,16 @@ import Price from './Components/Price/Price';
 import Overview from './Components/Overview/Overview';
 import  Activity from './Components/Activity/Activity'
 import Logs from './Components/Logs/Logs';
+import Leftside from './Components/Leftside/Leftside';
 
 function App() {
   return (
+    
     <div className="App">
+      <div className='leftside'>
+      <Leftside/>
+      </div>
+      <div className='rightside'>
       <div className='first'>
       <Overview/>
       <Categories/>
@@ -20,6 +26,11 @@ function App() {
       <Price/>
       </div>
       <Logs/>
+
+
+
+      </div>
+      
      
     </div>
   );
