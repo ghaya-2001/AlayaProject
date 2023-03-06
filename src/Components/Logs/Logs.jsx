@@ -2,17 +2,7 @@ import React from 'react';
 import { ArrowDown2 } from 'iconsax-react';
 
 
-/*const Logs =() =>{
 
-    const[long,setLong]=useState();
-    const changeLong=()=>{
-        if (window.scrollY >=250){
-            setLong()
-        }else{setLong(false);
-        }
-    }
-    window.addEventListener("scroll",changeLong);}
-*/
 
 
 

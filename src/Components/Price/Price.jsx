@@ -22,7 +22,7 @@ function Price() {
         </tr>
         <tr>
           <td className='td'>20/12</td>
-          <td className='tdd'>50</td>
+          <td className='tdd'>€ 50</td>
           <td className='tdd'>-0.25</td>
         </tr>
         <tr>
