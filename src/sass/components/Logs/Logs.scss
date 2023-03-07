@@ -1,6 +1,6 @@
 .logs {
     background-color: white;
-    width: 1070px;
+    width: 1020px;
     height: 362px;
     margin-top: 5%;
     margin-left: 3%;
@@ -9,7 +9,6 @@
     .row {
         padding-top: 3%;
     
-
         .titlelog {
             color: #141522;
             font-family: 'Plus Jakarta Sans', sans-serif;
@@ -25,7 +24,7 @@
 
         .row0 {
             display: flex;
-            gap: 50rem;
+            gap: 45rem;
             
            
             .iconbox{
@@ -64,8 +63,27 @@
         }
         .scroll{
             overflow-y: scroll;
-            width: 1070px;
+            width: 1010px;
             max-height: 250px;
+
+  
+  /* Track */
+  ::-webkit-scrollbartrack {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+   
+  }
             
               
               
@@ -313,17 +331,7 @@
         }
 
 
-        .hr {
-            border-bottom: 3px solid #2f2f83;
-            height: 400px;
-            width: 970px;
-            margin-left: 3%;
-            margin-top: 5%;
-            padding-top: 2%;
-
-
-
-        }
+       
     }
 
 

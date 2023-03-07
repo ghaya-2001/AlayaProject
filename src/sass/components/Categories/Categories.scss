@@ -4,15 +4,170 @@
     height: 280px;
     margin-top: 2%;
     border-radius: 8px;
-    margin-left: 7%;
+    margin-left: 3%;
     display: flex;
     flex-direction: column;
 
     .doughnutbox {
-    
+
         width: 40vh;
-        transform: scale(0.8);
-   
+        height: 190px;
+        padding-top: 5%;
+        padding-left: 2%;
+        display: flex;
+
+        .colors {
+
+            padding-top: 10%;
+            padding-left: 8%;
+            
+
+            .color1 {
+                display: flex;
+                gap: 1rem;
+                padding-top: 10%;
+
+                .one {
+                    border-radius: 2px;
+                    background-color: #222B41;
+                    width: 10px;
+                    height: 5px;
+                    margin-top: 1%;
+                }
+
+                .Necklace {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    
+
+                }
+
+            }
+
+            .color2 {
+                display: flex;
+                gap: 1rem;
+
+                .two {
+                    border-radius: 2px;
+                    width: 10px;
+                    height: 5px;
+                    background: #555E74;
+                    
+
+
+                }
+
+                .Bracelet {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+            }
+
+            .color3 {
+                display: flex;
+                gap: 1rem;
+
+                .three {
+                    border-radius: 2px;
+                    width: 10px;
+                    height: 5px;
+                    background: #808697;
+
+
+                }
+
+                .Earring {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+            }
+
+
+            .color4 {
+                display: flex;
+                gap: 1rem;
+
+                .four {
+                    border-radius: 2px;
+                    width: 10px;
+                    height: 5px;
+                    background: #AAAFB9;
+
+
+                }
+
+                .Solitaire {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+            }
+
+            .color5 {
+                display: flex;
+                gap: 1rem;
+
+                .five {
+                    border-radius: 2px;
+                    width: 10px;
+                    height: 5px;
+                    background: #D5D7DC;
+
+
+
+                }
+
+                .Normal {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+            }
+
+
+            .color6 {
+                display: flex;
+                gap: 1rem;
+
+                .six {
+                    border-radius: 2px;
+                    width: 10px;
+                    height: 5px;
+                    background: #F5F5F7;
+
+
+
+                }
+
+                .Others {
+                    font-size: 10px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+            }
+
+
+
+
+
+
+        }
+
 
 
 

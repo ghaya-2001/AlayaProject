@@ -55,7 +55,7 @@ function Activity() {
           <span className='titre'>Activity </span>
           <div className='list'>
             <div className='last7'> Last 7 day</div>
-            <ArrowDown2 className='icon' />
+            <ArrowDown2 className='icons' />
           </div>
         </div>
         <div className='graph'>

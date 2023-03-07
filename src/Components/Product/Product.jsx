@@ -83,6 +83,7 @@ function Product() {
           plugins={[ChartDoughnutLabel]}
 
         />
+        
          <div className='Colors'>
           <div className='prt1'>
           <div className='Blue'></div>

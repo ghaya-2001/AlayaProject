@@ -14,7 +14,7 @@ function Overview() {
 
         <div className='uservend'>
           {/**users */}
-          <div className='user'>
+            <div className='user'>
             <div className="left_block">
               <div className="icon_overview">
                 <Profile2User size="18" color="white"/>
@@ -25,7 +25,7 @@ function Overview() {
               <span>9</span>
             </div>
           </div>
-        {/**vendors */}
+       
           <div className='user'>
             <div className="left_block">
               <div className="icon_overview">
