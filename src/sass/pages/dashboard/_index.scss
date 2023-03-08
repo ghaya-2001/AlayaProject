@@ -1,0 +1,103 @@
+#dahboardPage {
+  .first_bloc {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 20px;
+    justify-content: center;
+    place-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .overview {
+      background-color: #ffff;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      height: 237px;
+      width: 376px;
+      .title {
+        margin-bottom: 25px;
+        h1 {
+          color: #141522;
+          font-size: 18px;
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+      }
+      .box {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(160px, 45%));
+        gap: 20px;
+        .user {
+          background-color: #eaebee;
+          border-radius: 8px;
+          width: 100%;
+          padding: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+          .left_block {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            .icon_overview {
+              background-color: #2b3651;
+              border-radius: 2px;
+              width: max-content;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 4px;
+            }
+            span {
+              color: #141522;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 15px;
+            }
+          }
+          .right_block {
+            span {
+              color: #141522;
+              font-weight: bold;
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+    .categories {
+      @extend .overview;
+      .content_stats {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      .doughnut {
+        width: 146px;
+      }
+      .colors {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 7px;
+        .color_line {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .color__fill {
+            width: 14px;
+            height: 8px;
+            border-radius: 2px;
+          }
+          .color__name {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+}
