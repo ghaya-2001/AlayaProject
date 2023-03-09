@@ -1,89 +1,107 @@
 import React from "react";
-// import { Doughnut } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import "chart.js/auto";
 
-// const data = {
-//   labels: [],
+const data = {
+  labels: [],
 
-//   datasets: [
-//     {
-//       label: "",
-//       data: [71, 29],
-//       backgroundColor: [" #2B3651", "#D5D7DC"],
-//       borderWidth: 0,
-//       cutout: "80%",
-//     },
-//   ],
-// };
+  datasets: [
+    {
+      label: "",
+      data: [71, 29],
+      backgroundColor: [" #2B3651", "#D5D7DC"],
+      borderWidth: 0,
+      cutout: "80%",
+    },
+  ],
+};
 
-// const options = {
-//   plugins: {
-//     doughnutlabel: {
-//       labels: [
-//         {},
+const options = {
+  plugins: {
+  
+      color: "white",
+      labels: {
+        title: {
+          font: {
+            size: "10",
+            family: "Plus Jakarta Sans",
+          },
+        },
+      },
+    },
+  }
+;
+const textcenter = {
+  id: "doughnutlabel",
+  beforeDraw(chart) {
+       const { ctx,data } = chart;
+       const xCoor=chart.getDatasetMeta(0).data[0].x
+       const yCoor=chart.getDatasetMeta(0).data[0].y
 
-//         {
-//           text: "180 Total",
+  
+     ctx.save();
+  
+     ctx.font = "bolder 30px Plus Jakarta Sans";
+     ctx.fillStyle = "#141522"
+     ctx.textAlign = "center";
+     ctx.textBaseline = "middle";
+     ctx.fillText(data.datasets[0].data[0],xCoor,yCoor-5);
+     //total
 
-//           font: {
-//             size: "36",
-//             weight: "bold",
-//           },
-//           color: "#333",
-//         },
-//       ],
-//     },
-//   },
-// };
-// const ChartDoughnutLabel = {
-//   id: "doughnutlabel",
-//   beforeDraw: function (chart) {
-//     const { ctx } = chart;
-//     const width = chart.width;
-//     const height = chart.height;
+     ctx.font = "10px Plus Jakarta Sans";
+     ctx.fillStyle = " #9C9CA4"
+     ctx.fillText('Total' ,xCoor,yCoor+20);
+  }, };
 
-//     // Display the number label
-//     const text = chart.config.options.plugins.doughnutlabel.labels[1].text;
-//     const color = chart.config.options.plugins.doughnutlabel.labels[1].color;
-
-//     ctx.restore();
-//     const centerX = width / 2;
-//     const centerY = height / 2;
-//     ctx.font = "Plus Jakarta Sans,sans-serif;";
-//     ctx.fillStyle = color;
-//     ctx.textAlign = "center";
-//     ctx.textBaseline = "middle";
-//     ctx.fillText(text, centerX, centerY);
-//   },
-// };
 
 function Product() {
+  const colorData = [
+    {
+      names: "Sold - 71%",
+      colors: "#2B3651",
+    },
+    {
+      names: "Stand By - 29%",
+      colors: " #D5D7DC",
+    }
+
+  ]
   return (
-    <div className="categories">
+    <div className="Product">
       <div className="title">
         <h1>Product Status</h1>
       </div>
-      {/* <div className="dougbox">
+      <div className="content_stats">
         <Doughnut
           className="doughnut"
           data={data}
           options={options}
-          plugins={[ChartDoughnutLabel]}
+          
+        plugins={[textcenter]}
         />
 
-        <div className="Colors">
-          <div className="prt1">
-            <div className="Blue"></div>
-            <div className="sold"> Sold - 71%</div>
-          </div>
-          <div className="prt2">
-            <div className="Greey"></div>
-            <div className="stand">StandBy29%</div>
-          </div>
-        </div>
-      </div> */}
+        <div className="colors">
+          {colorData.map((el, index) => (
+            <div className="color_line" key={index}>
+              <div
+                className="color__fill"
+                style={{ backgroundColor: `${el.colors}` }}
+              ></div>
+              <div className="color__name">{el.names}</div>
+            </div>
+
+
+
+          ))}
+
+
+        </div >
+      </div>
     </div>
-  );
+    )
 }
+
+
+
 
 export default Product;
