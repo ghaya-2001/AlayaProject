@@ -13,9 +13,9 @@ const DashboardPge = () => {
         <Categories />
         <Product />
       </div>
-      <div className="second">
+      <div className="second_bloc">
         <Activity />
-        <Price />
+    
       </div>
       <Logs />
     </div>

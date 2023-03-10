@@ -33,8 +33,13 @@ const options = {
   plugins: {
     legend: false,
     labels: {
-      fontSize: 20,
-    }
+      title: {
+        font: {
+          size: "15",
+          family: "Plus Jakarta Sans",
+        },
+      },
+    },
   },
   scales: {
     y: {
@@ -48,29 +53,70 @@ const options = {
 
 
 function Activity() {
+  const colorData = [
+    {
+      naame: "Revenu",
+      coolor: "#2B3651"
+    },
+    {
+      naame: "Manufacturing costs",
+      coolor: "#d4c9ae"
+    }
+  ]
   return (
     <div className='activity'>
-      <div className='act'>
-        <div className='firstpart'>
-          <span className='titre'>Activity </span>
-          <div className='list'>
-            <div className='last7'> Last 7 day</div>
+      <div className='blocs'>
+
+
+        <div className='leftbloc'>
+          <span className='title'>
+            <h1>Activity </h1>
+          </span>
+
+
+
+          <div className='rightbloc'>
+            <div className='date'> Last 7 day</div>
             <ArrowDown2 className='icons' />
-          </div>
-        </div>
-        <div className='graph'>
-          <Line data={data} options={options}
-            className='line'></Line>
-          <div className='colors'>
-            <div className='blue' ></div>
-            <div className='revenu'>Revenu</div>
-            <div className='greey'></div>
-            <div className='manu'>Manufacturing costs</div>
           </div>
         </div>
 
       </div>
+
+
+
+
+      <div className='Line'>
+        <Line data={data} options={options}
+          className='line'></Line></div>
+
+      <div className="colors">
+        {colorData.map((el, index) => (
+          <div className="color_line" key={index}>
+            <div
+              className="color__fill"
+              style={{ backgroundColor: `${el.coolor}` }}
+            ></div>
+            <div className="color__name">{el.naame}</div>
+          </div>
+
+
+
+        ))}
+
+
+      </div >
+
+
+
+
+
+
+
     </div>
+
+
+
   )
 }
 

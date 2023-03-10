@@ -127,10 +127,6 @@
         height:147px
       }
 
-      .doughnut {
-       
-      }
-
       .colors {
         display: flex;
         flex-direction: column;
@@ -160,5 +156,131 @@
 
       }
     }
+    
   }
-}
+  .second_bloc{
+    display: grid;
+    grid-template-columns: repeat(2,10%);
+    column-gap: 20px;
+    justify-content: center;
+    place-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    .activity{
+      background-color: #ffff;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px ;
+      height: 362px;
+      width: 682px;
+     
+      .blocs{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;         
+        justify-content: center;
+        padding-bottom: 1rem;
+       
+       
+     
+        
+       
+        .leftbloc{
+          display: flex;
+          gap: 365px;
+        
+        
+  
+        }
+        
+        .rightbloc{
+          display: flex;
+          background-color:#F5F5F7 ;
+          width: 136px;
+          height: 40px;
+          border-radius: 8px;
+          justify-content: space-between;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          row-gap: 12px;
+        
+          
+          
+          .date{
+            font-weight:500 ;
+            font-size: 14px;
+            padding: 1rem;
+           
+           
+           
+
+          }
+          .icons{
+            align-items: center;
+            justify-content: center;
+            
+          
+         
+
+
+          }
+         
+        
+          
+        }
+
+
+
+      }
+      
+      
+      .Line{
+        background-color:#F5F5F7 ;
+        width: 622px;
+        height: 237px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        
+        
+        
+        }
+        .colors {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;         
+          justify-content: center;
+          gap: 7px;
+          padding-left: 1rem; 
+          padding-top: 1rem;
+  
+          .color_line {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+  
+            .color__fill {
+              width: 14px;
+              height: 14px;
+              border-radius: 8px;
+            }
+  
+            .color__name {
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 15px;
+            }
+          }
+      
+      }
+
+    }
+    
+
+  }}
+
