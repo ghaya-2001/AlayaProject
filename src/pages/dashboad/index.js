@@ -1,7 +1,7 @@
 import Overview from "./../../Components/Overview/Overview";
 import Categories from "./../../Components/Categories/Categories";
 import Product from "./../../Components/Product/Product";
-//import Price from "./../../Components/Price/Price";
+import Price from "./../../Components/Price/Price";
 import Logs from "./../../Components/Logs/Logs";
 import Activity from "./../../Components/Activity/Activity";
 
@@ -15,7 +15,7 @@ const DashboardPge = () => {
       </div>
       <div className="second_bloc">
         <Activity />
-    
+        <Price/>
       </div>
       <Logs />
     </div>
