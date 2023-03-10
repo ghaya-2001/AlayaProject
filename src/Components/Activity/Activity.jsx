@@ -73,8 +73,6 @@ function Activity() {
             <h1>Activity </h1>
           </span>
 
-
-
           <div className='rightbloc'>
             <div className='date'> Last 7 day</div>
             <ArrowDown2 className='icons' />
