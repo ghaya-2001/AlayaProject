@@ -17,7 +17,10 @@ const DashboardPge = () => {
         <Activity />
         <Price/>
       </div>
+      <div className="third_bloc">
       <Logs />
+      </div>
+      
     </div>
   );
 };

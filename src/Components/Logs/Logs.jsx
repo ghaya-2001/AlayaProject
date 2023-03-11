@@ -8,76 +8,95 @@ import { ArrowDown2 } from 'iconsax-react';
 
 
 function Logs() {
+    const colorsData = [
+        {
+            action: "Created",
+            items: "Item",
+            id: "#001",
+            state: "was created by",
+            name: "Admin",
+
+
+
+        },
+        {
+            action: "Deleted",
+            items: "Item",
+            id: "#005",
+            state: "was deleted by",
+            name: "Admin",
+
+
+        },
+        {
+            action: "Deleted",
+            items: "Item",
+            id: "#018",
+            state: "was deleted by",
+            name: "Admin",
+
+        },
+        {
+            action: "Edited",
+            items: "Quote",
+            id: "#011",
+            state: "was edited by",
+            name: "Sibestian Klico",
+
+
+        },
+       
+
+    ];
     return (
         <div className='logs'>
 
-            <div className='row'>
+        
 
-                <div className='row0'>
 
-                    <span className='titlelog'>Logs</span>
-                    <div className='iconbox'>
+                    <span className='title'>
+                        <h1>Logs</h1>
+                    </span>
+
+
+                    {/** <div className='iconbox'>
                         <div className='List'>21 Dec 2022</div>
                         <ArrowDown2 className='icon' />
 
-                    </div>
+                    </div>*/}
 
 
 
-                </div>
+
+                
+                <div className="rows">
+                 
                 <div className='scroll'>
-                <div className='row1'>
-                    <div className='item1'>Created</div>
-                    <div className='item'> Item</div>
-                    <div className='id'>#001</div>
-                    <div className='createdby'>was created by</div>
-                    <div className='person '>Admin</div>
+                    
+                <div className='row'>
+
+                 {colorsData.map((el, index) => (
+                        <div className="row1" key={index}>
+                            
+                            <div className="action">{el.action}</div>
+                            <div className="items">{el.items}</div>
+                            <div className="id">{el.id}</div>
+                            <div className="state">{el.state}</div>
+                            <div className="person">{el.name}</div>
+                        </div>
+                    ))}
+                   
 
                 </div>
-                <div className='row2'>
-                    <div className='item2'>Deleted</div>
-                    <div className='item'> Item</div>
-                    <div className='id'>#005</div>
-                    <div className='createdby'>was deleted by</div>
-                    <div className='person '>Admin</div>
-
-                </div>
-
-                <div className='row3'>
-                    <div className='item3'>Deleted</div>
-                    <div className='item'> Item</div>
-                    <div className='id'>#018</div>
-                    <div className='createdby'>was deleted by</div>
-                    <div className='person '>SibestianKlico</div>
-
-
-                </div>
-                <div className='row4'>
-                    <div className='item4'>Edited</div>
-                    <div className='item'> Item</div>
-                    <div className='id'>#018</div>
-                    <div className='createdby'>was edited by</div>
-                    <div className='person '>SibestianKlico</div>
-
-
-                </div>
-                <div className='row4'>
-                    <div className='item4'>Edited</div>
-                    <div className='item'> Item</div>
-                    <div className='id'>#018</div>
-                    <div className='createdby'>was edited by</div>
-                    <div className='person '>SibestianKlico</div>
-                </div>
-                </div>
-                
-
+               
 
                 </div>
                 
-             
+                </div>
                 </div>
 
-                
+
+   
 
 
 
@@ -86,8 +105,12 @@ function Logs() {
 
 
 
-          
-    )
+
+
+
+
+
+            )
 }
 
-export default Logs
+            export default Logs
