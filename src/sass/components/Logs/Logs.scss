@@ -1,13 +1,8 @@
 .logs {
-    background-color: white;
-    width: 1020px;
-    height: 362px;
-    margin-top: 5%;
-    margin-left: 3%;
-    border-radius: 8px;
+   
 
     .row {
-        padding-top: 3%;
+       
     
         .titlelog {
             color: #141522;
@@ -61,37 +56,7 @@
            
 
         }
-        .scroll{
-            overflow-y: scroll;
-            width: 1010px;
-            max-height: 250px;
-
-  
-  /* Track */
-  ::-webkit-scrollbartrack {
-    background: #f1f1f1; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-   
-  }
-            
-              
-              
-              
-            
-           
-
-        }
+       
         .row1{
             display: flex;
             gap:3rem;
@@ -109,42 +74,9 @@
             padding-left: 0.5%;
 
         }
-        .item{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans', sans-serif;
-            margin-top: 4.6%;
-
-
-        }
-        .id{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            font-family:  'Plus Jakarta Sans ',sans-serif;
-        
-        }
-        .createdby{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans ',sans-serif;
-            margin-top: 4.6%;
-
-        }
-        .person{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-
-        }
+       
+       
+     
         .time1{
             text-align: center;
         }
@@ -167,43 +99,9 @@
 
 
         }
-        .item{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans', sans-serif;
-            margin-top: 4.6%;
-
-
-        }
-        .id{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            font-family:  'Plus Jakarta Sans',sans-serif;
-            
         
-        }
-        .createdby{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta ',sans-serif;
-            margin-top: 4.6%;
-
-        }
-        .person{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-
-        }
+      
+       
         
 
 
@@ -226,44 +124,9 @@
             padding-top: 0.5%;
             padding-left: 0.5%
         }
-        .item{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta ',sans-serif;
-            margin-top: 4.6%;
-
-
-        }
-        .id{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            font-family:  'Plus Jakarta Sans ',sans-serif;
-            
         
-        }
-        .createdby{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans',sans-serif;
-            margin-top: 4.6%;
-
-        }
-        .person{
-            background-color: #F6F6F4;
-            width: 115px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            
-
-        }
+        
+       
        
 
 
@@ -289,44 +152,9 @@
         }
 
         
-        .item{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans', sans-serif;
-            margin-top: 4.6%;
-
-
-        }
-        .id{
-            background-color: #F6F6F4;
-            width: 62px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            font-family:  'Plus Jakarta ',sans-serif;
-            
         
-        }
-        .createdby{
-            color: #9C9CA4;
-            font-family:  'Plus Jakarta Sans',sans-serif;
-            margin-top: 4.6%;
-
-        }
-        .person{
-            background-color: #F6F6F4;
-            width: 115px;
-            height: 30px;
-            color: #69645F;
-            border-radius: 4px;
-            margin-top: 4%;
-            padding-top: 0.5%;
-            padding-left: 0.5%;
-            margin-left: 0.9%;
-
-        }
+       
+        
 
         }
 
